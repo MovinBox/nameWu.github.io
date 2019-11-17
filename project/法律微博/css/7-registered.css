@@ -1,0 +1,58 @@
+.application{
+    height: 832px;
+}
+.application dt{
+    width: 590px;
+    height: 32px;
+    border: 1px solid #EAE8D2;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 30px;
+    line-height: 32px;
+    position: relative;
+    background-color: #FFFDE2;
+    margin: 50px auto 22px;
+}
+.application dd div {
+    width: 250px;
+}
+.application dd input{
+    width: 230px;
+}
+.application dd:nth-of-type(3){
+    height:34px;
+}
+.application dd:nth-of-type(5) div{
+    margin-left: 262px;
+    width: 600px;
+    text-align: left;
+}
+.application dd select{
+    float: left;
+    width: 124px;
+    height: 31px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.application dd:nth-of-type(5){
+    margin-top: -18px;
+}
+.application dd:nth-last-child(3){
+    height: 100px;
+    width: 518px;
+}
+.application dd:nth-last-child(3) textarea{
+    margin-left: 262px;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.application dd:nth-last-child(2) input{
+    width: 17px;
+    height: 17px;
+    margin-top: 8px;
+    margin-left: 262px;
+}
+.application dd:nth-last-child(1){
+    margin-left: 262px;
+}

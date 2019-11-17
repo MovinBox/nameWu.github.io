@@ -1,0 +1,27 @@
+.post{
+    height: 674px;
+}
+.post .postleft ul{
+    margin-top: 22px;
+    overflow: hidden;
+    height: 100%;
+}
+.post .postleft ul li {
+    width: 200px;
+    height: 33px;
+    list-style: none;
+    line-height: 33px;
+    margin-top: 17px;
+    margin-left: 11px;
+    text-indent: 32px;
+}
+.post .postleft .posttouch{
+    box-shadow: -3px 3px 5px rgba(0,0,0,0.3);
+    background: #fff;
+    color: #0B6898;
+    font-weight: bold;
+}
+.post .postright dd h5{
+    text-indent: 33px;
+    margin-bottom: 26px;
+}

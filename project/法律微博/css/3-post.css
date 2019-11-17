@@ -1,0 +1,61 @@
+.post{
+    height: 1011px;
+    width: 990px;
+    margin: auto;
+    background: #fff;
+}
+/*左*/
+.post .postleft{
+    width: 211px;
+    background: #F7F7F7;
+    height: 100%;
+    color:#0B6898;
+    float: left;
+    overflow: hidden;
+    box-shadow: -14px 0 5px -10px rgba(0,0,0,0.3) inset;
+}
+.post .postleft h2{
+    font-size: 14px;
+    line-height: 14px;
+    margin: 24px 0 11px;
+    font-weight: bold;
+    text-indent: 19px;
+}
+.post .postleft ul li{
+    list-style: square;
+    margin-left: 35px;
+    line-height: 26px;
+    color: #7B7B7B;
+
+}
+.post .postleft ul li p{
+    color:#0B6898;
+    text-indent: -6px;
+}
+/*右*/
+.post .postright{
+    width: calc(100% - 211px - 86px - 73px);
+    height: 100%;
+    float: left;
+    background: #fff;
+    padding: 0 86px 0 73px;
+}
+.post .postright dt{
+    font-size: 22px;
+    line-height: 22px;
+    margin-top: 45px;
+    margin-bottom: 26px;
+    color:#0c6898;
+}
+.post .postright dd h4,.post .postright dd h5{
+    font-size: 14px;
+    line-height: 28px;
+}
+.post .postright dd h4{
+    font-weight: bold;
+}
+.post .postright dd img{
+    width:100%;
+    margin: 22px 0 29px 0;
+}
+

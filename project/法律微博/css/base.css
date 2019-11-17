@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,input,button,textarea,blockquote,th,td,form{margin:0;padding:0; }
+body{font-size:12px;-webkit-text-size-adjust:none; }
+img,a img{ display:inline-block;border:none;}
+h1,h2,h3,h4,h5,h6{font-style:normal;font-weight:normal;font-size:12px;}
+em{ font-weight:normal; font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+address,cite,dfn,var{font-style:normal;}
+ul,li,ol{list-style:none;}
+button,input,select,textarea{font-size:100%;outline:none!important; resize:none!important;vertical-align:middle;font-family:'Microsoft YaHei'!important}
+.clear{height:0!important; overflow:hidden; clear:both;}
+a{text-decoration:none;color:#666;outline:none}
+a:hover {text-decoration:underline;}
+.unline,.unline a{text-decoration:underline}
+.line,.line a{text-decoration:none}
+.f_l{ float:left;}
+.f_r{ float:right}
+.txtleft{ text-align:left;}
+.txtright{ text-align:right;}
+.txtcenter{ text-align:center!important;}
+.posi_re{ position:relative;}
+.show{display:block!important;}
+.hidden{display:none!important;}
+.hand{cursor:pointer;}
+.fontarial{font-family:'Arial';}
+.fontsongti{font-family:'SimSun'!important}
+.fontheiti{font-family:'SimHei'!important}
+.fontyahei{font-family:'Microsoft YaHei'!important}
+.fontb{font-weight:bold;}
+.fontN{font-weight: normal;}
+.margin0{ margin:0!important;}
+.padding0{ padding:0!important;}
+
+.container{width:1180px;}
+/*省略号*/
+.ellipsisBox{text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+
+/*折行*/
+.breakWord{ word-wrap: break-word; break-word: break-all; }
+
+/*半透明*/
+.opacity50{opacity:0.5; filter:alpha(opacity=50); }
+.opacity50B{background:rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000); }
+
+
+
+
+
+/*图片置灰*/
+/*img.grayscale,.grayscale img{*/
+    /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");-webkit-filter: grayscale(100%);filter: gray; }*/
+
+/*icon*/
+/*.iconBase{ display:inline-block; background-image:url(../images/base/icon.png); background-repeat:no-repeat;}*/
+/*.iconB{ background-position:-20px 0;}*/
+
+
+

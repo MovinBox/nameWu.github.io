@@ -1,0 +1,91 @@
+.post{
+    height: 587px;
+}
+/*左边部分*/
+.post .postleft{
+    box-shadow: 0 0 0 0 rgba(0,0,0,0) inset;
+}
+.post .postleft ul{
+    padding-top: 22px;
+    overflow: hidden;
+    height: 100%;
+    background:#EFF3F4;
+}
+.post .postleft ul li {
+    width: 200px;
+    height: 33px;
+    list-style: none;
+    line-height: 33px;
+    margin-top: 17px;
+    margin-left: 11px;
+    text-indent: 32px;
+    position: relative;
+}
+.post .postleft .posttouch{
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    background: #fff;
+    color: #0B6898;
+    font-weight: bold;
+}
+/*右边部分*/
+.post .headright{
+    width: calc(100% - 211px - 80px);
+    height: calc(100% - 36px);
+    float: left;
+    background: #fff;
+    padding: 36px 40px 0;
+}
+
+.post .headright h1{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color:#666666;
+    margin-right: 8px;
+}
+.post .headright span{
+    color:#A1A1A1;
+}
+
+
+.post .headright .tong{
+    height: 247px;
+    padding-top: 18px;
+    padding-left: 36px;
+}
+.post .headright .tong li{
+    margin-top: 27px;
+    height: 16px;
+}
+.post .headright .tong li img{
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+.post .headright .tong li div{
+    width: 72px;
+    text-indent: 8px;
+    float: left;
+}
+.post .headright .tong li span:nth-of-type(1){
+    color: #0C6898;
+}
+.post .headright .tong li span:nth-of-type(2){
+    color: #8B8B8B;
+}
+.post .headright .tong li input{
+    margin-left: 20px;
+}
+
+.post .zheng3 h2{
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333333;
+}
+.post .headright .zheng3 li{
+    font-size: 12px;
+    line-height: 24px;
+    color: #9A9A9A;
+}

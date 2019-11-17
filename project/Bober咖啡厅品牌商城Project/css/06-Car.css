@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background: #E67929;
+  line-height: 30px;
+  border: none;
+}
+.choiceThis {
+  background: #FEAD71;
+}
+/*top*/
+.wTop {
+  background: #373030;
+}
+.wTop div {
+  width: 1200px;
+  height: 34px;
+  font: 12px/34px "SimSun";
+  margin: auto;
+  color: #fff;
+}
+.wTop div ul {
+  float: left;
+}
+.wTop div ul li {
+  float: left;
+  margin-right: 25px;
+}
+.wTop div ul li a {
+  color: #fff;
+}
+.wTop div ul li img {
+  width: 8px;
+}
+.wTop div ul li:nth-child(1) {
+  margin-right: 12px;
+}
+.wTop div dl {
+  float: right;
+}
+.wTop div dl dt,
+.wTop div dl dd {
+  float: left;
+}
+.wTop div dl dt {
+  width: 22px;
+  height: 20px;
+  margin-top: 7px;
+}
+.wTop div dl dt img {
+  width: 100%;
+}
+.wTop div dl dd:nth-of-type(1) {
+  margin-left: 7px;
+  margin-right: 50px;
+}
+/*banner*/
+.wBanner {
+  width: 1200px;
+  height: 146px;
+  margin: auto;
+}
+.wBanner dt {
+  float: left;
+  margin-top: 16px;
+  width: 110px;
+  height: 110px;
+}
+.wBanner dt img {
+  width: 100%;
+  height: 100%;
+}
+.wBanner dd {
+  float: left;
+  width: 218px;
+  height: 90px;
+  margin-top: 55px;
+  text-align: center;
+}
+.wBanner dd a {
+  color: #000000;
+}
+.wBanner dd a p {
+  font: 14px/14px "SimSun";
+  font-weight: bolder;
+}
+.wBanner dd a h3 {
+  margin-top: 10px;
+  font: 12px/12px "SimSun";
+}
+.wBanner dd:hover a {
+  color: #5E3411;
+}
+.wBanner dd:hover a p {
+  font-size: 24px;
+}
+/*bannerImg*/
+.wBannerImg div {
+  width: 1900px;
+  height: 540px;
+  overflow: hidden;
+  margin: auto;
+}
+.wBannerImg div img {
+  width: 100%;
+  margin-top: -180px;
+}
+/*bottom*/
+.wBottom {
+  height: 340px;
+  background: #373030;
+  color: #fff;
+}
+.wBottom section:nth-child(1) {
+  border-bottom: 1px solid #1E1E1E;
+}
+.wBottom section:nth-child(1) ul {
+  width: 1200px;
+  height: 217px;
+  font: 12px/34px "SimSun";
+  margin: auto;
+}
+.wBottom section:nth-child(1) ul li {
+  width: 200px;
+  height: 189px;
+  float: left;
+  margin-top: 28px;
+  box-sizing: border-box;
+  border-right: 1px solid #1E1E1E;
+  text-align: center;
+}
+.wBottom section:nth-child(1) ul li p {
+  margin-top: 28px;
+  font: 14px/56px "SimSun";
+}
+.wBottom section:nth-child(1) ul li a {
+  display: block;
+  color: #fff;
+  font: 12px/20px "SimSun";
+}
+.wBottom section:nth-child(1) ul li img {
+  width: 120px;
+  height: 120px;
+  margin-top: 30px;
+}
+.wBottom section:nth-child(1) ul li h1 {
+  font: 12px/20px "SimSun";
+}
+.wBottom section:nth-child(1) ul li:nth-last-child(1) {
+  border-right: none;
+}
+.wBottom section:nth-child(2) dl {
+  width: 1200px;
+  height: 80px;
+  margin: auto;
+}
+.wBottom section:nth-child(2) dl dd {
+  width: 400px;
+  margin-top: 28px;
+  float: left;
+}
+.wBottom section:nth-child(2) dl dd img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+.wBottom section:nth-child(2) dl dd h2 {
+  font: 12px/20px "SimSun";
+}
+.wBottom section:nth-child(2) dl dd:nth-child(3) img,
+.wBottom section:nth-child(2) dl dd:nth-child(3) h2 {
+  float: right;
+}
+.wBottom section:nth-child(3) {
+  border-top: 2px solid #000;
+}
+.wBottom section:nth-child(3) div {
+  width: 1200px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  font: 10px/40px "SimSun";
+}
+/*bannerImg*/
+.wBannerImg div {
+  width: 1900px;
+  height: 140px;
+}
+.wOrder {
+  margin: 80px auto;
+  width: 1200px;
+  height: 100%;
+}
+.wOrder div:nth-child(1) dl {
+  width: 1200px;
+  height: 100%;
+}
+.wOrder div:nth-child(1) dl dt {
+  width: 100%;
+  height: 38px;
+  border-bottom: 1px solid #CBCBCB;
+}
+.wOrder div:nth-child(1) dl dt ul {
+  width: 100%;
+  height: 100%;
+  line-height: 38px;
+}
+.wOrder div:nth-child(1) dl dt ul li {
+  text-align: center;
+  width: 142px;
+  float: left;
+}
+.wOrder div:nth-child(1) dl dt ul li:nth-child(1) {
+  width: 490px;
+}
+.wOrder div:nth-child(1) dl dd {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0 30px;
+  text-align: center;
+}
+.wOrder div:nth-child(1) dl dd input {
+  width: 20px;
+  height: 20px;
+  margin-top: 40px;
+  margin-right: 15px;
+  float: left;
+}
+.wOrder div:nth-child(1) dl dd img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  float: left;
+}
+.wOrder div:nth-child(1) dl dd h1 {
+  width: 340px;
+  float: left;
+  text-align: left;
+  font: 30px/100px "SimSun";
+}
+.wOrder div:nth-child(1) dl dd div {
+  font: 20px/100px "SimSun";
+  width: 142px;
+  float: left;
+}
+.wOrder div:nth-child(1) dl dd div a {
+  color: #ff4400;
+}
+.wOrder > button:nth-last-of-type(1) {
+  float: right;
+}
+.wOrder > button:nth-last-of-type(1) a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+/*# sourceMappingURL=06-Car.css.map */

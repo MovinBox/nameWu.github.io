@@ -1,0 +1,121 @@
+.post{
+    height: 587px;
+}
+/*左边部分*/
+.post .postleft{
+    box-shadow: 0 0 0 0 rgba(0,0,0,0) inset;
+}
+.post .postleft ul{
+    padding-top: 22px;
+    overflow: hidden;
+    height: 100%;
+    background:#EFF3F4;
+}
+.post .postleft ul li {
+    width: 200px;
+    height: 33px;
+    list-style: none;
+    line-height: 33px;
+    margin-top: 17px;
+    margin-left: 11px;
+    text-indent: 32px;
+    position: relative;
+}
+.post .postleft .posttouch{
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    background: #fff;
+    color: #0B6898;
+    font-weight: bold;
+}
+/*右边部分*/
+.post .headright{
+    width: calc(100% - 211px - 80px);
+    height: calc(100% - 36px);
+    float: left;
+    background: #fff;
+    padding: 36px 40px 0;
+}
+.post .headright dd:nth-of-type(1),.post .headright dd:nth-of-type(2){
+    width: calc(100% - 18px);
+    height: 146px;
+    background: #EBF1F6;
+    margin-bottom: 10px;
+    padding-left: 18px;
+}
+.post .headright input{
+    width: 247px;
+    height: 34px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-top: 53px;
+    text-indent: 7px;
+    color:#BFBFBF;
+    line-height: 34px;
+}
+.post .headright button{
+    width: 94px;
+    height: 34px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-top: 53px;
+    margin-left: 10px;
+    color:#fff;
+    line-height: 34px;
+}
+.post .headright div{
+    width: 242px;
+    height: 125px;
+    float: right;
+    margin: 10px 10px 0 0;
+    background: #fff;
+    padding: 0 0 0 15px;
+    overflow: hidden;
+}
+.post .headright div span{
+    font-size: 12px;
+    line-height: 40px;
+    color:#BFBFBF;
+}
+.post .headright div span:nth-of-type(2){
+    float: right;
+    display: inline-block;
+    color: #0C6898;
+    margin-right: 15px;
+}
+.post .headright .zheng li{
+    float: left;
+    width: 42px;
+    height: 20px;
+    background: #2A77CE;
+    margin:0 5px 5px 0;
+    text-align: center;
+    line-height: 20px;
+    color:#fff;
+}
+.post .zheng2 p{
+    color: #333333;
+    line-height: 40px;
+}
+.post .zheng2 li{
+    float: left;
+    width: 80px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #0C6898;
+    border: 1px solid #AEC7E3;
+    background: #fff;
+    margin-right: 10px;
+}
+.post .zheng3 h2{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333333;
+}
+.post .headright .zheng3 li{
+    font-size: 12px;
+    line-height: 24px;
+    color: #9A9A9A;
+}

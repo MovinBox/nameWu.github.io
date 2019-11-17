@@ -1,0 +1,122 @@
+
+.enterall{
+    background: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.enter{
+    width:990px;
+    height: 470px;
+    margin:auto;
+    overflow: hidden;
+}
+.enter dt{
+    margin-bottom: 29px;
+}
+.enter dd{
+    height: 395px;
+    width: 988px;
+    border: 1px solid #3C3838;
+    position: relative;
+}
+.enter dd .left{
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+.enter dd .left img {
+    height: 100%;
+}
+.enter dd .left h3{
+    font-size: 32px;
+    line-height: 36px;
+    opacity: 0.5;
+    position: absolute;
+    font-family: 华文行楷;
+}
+.enter dd .left h3:nth-of-type(1){
+    top: 33px;
+    left: 286px;
+}
+.enter dd .left h3:nth-of-type(2){
+    top: 69px;
+    left: 314px;
+}
+.enter dd .right{
+    width: 359px;
+    height: 100%;
+    float: left;
+    padding-left: 74px;
+    background: rgba(0,0,0,0.5);
+    font-family: 宋体;
+}
+.enter dd .right li:nth-child(1){
+    font-size: 16px;
+    line-height: 16px;
+    margin:24px 0 21px 0;
+    color:#fff;
+}
+.enter dd .right li:nth-child(2) input,.enter dd .right li:nth-child(3) input{
+    height: 37px;
+    width: 260px;
+    margin-bottom: 18px;
+}
+.enter dd .right li:nth-child(4) input{
+    height: 37px;
+    width: 117px;
+    float: left;
+}
+.enter dd .right li:nth-child(5){
+    height: 39px;
+    line-height: 39px;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 23px;
+}
+.enter dd .right li:nth-child(5) input{
+    margin: 0 7px 0 37px;
+}
+.enter dd .right li:nth-child(6) a{
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    margin-right: 37px;
+    position: relative;
+}
+.enter dd .right li:nth-child(7){
+    height: 32px;
+    margin-top: 23px;
+}
+.enter dd .right li:nth-child(9){
+    height: 34px;
+    margin-top: 11px;
+}
+.enter dd .right li:nth-child(7) h4,
+.enter dd .right li:nth-child(9) h4{
+    line-height: 32px;
+    font-size: 12px;
+    color:#fff;
+    float: left;
+    margin-right: 5px;
+}
+.enter dd .right li:nth-child(9) h4{
+    margin-right: 1px;
+}
+.enter dd .right li:nth-child(7) img,
+.enter dd .right li:nth-child(9) img{
+    height: 100%;
+}
+.enter dd .right li:nth-child(8){
+    height:1px;
+    width: 264px;
+    background: #A0A0AC;
+    margin-top: 30px;
+    margin-left: 4px;
+}

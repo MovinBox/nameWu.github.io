@@ -1,0 +1,13 @@
+.post{
+    height: 924px;
+    padding-top: 37px;
+}
+.post div{
+    height: 815px;
+    width: 850px;
+    margin:auto;
+    background: #EAEAEA;
+    text-align: center;
+    line-height: 444px;
+    color:#9F9F9F;
+}
